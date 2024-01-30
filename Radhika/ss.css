@@ -1,0 +1,116 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.firstsection .section {
+    padding: 50px 0;
+}
+
+.secondsection{
+    background-color: grey;
+    
+}
+
+.box-main {
+    display: flex;
+    justify-content: space-around;
+}
+.box-main img{
+    width: 30%;
+    height:200px;
+}
+
+.text-big {
+    font-size: 24px;
+}
+
+.text-small h1 {
+    font-size: 16px;
+    text-align: left;
+}
+.section .img img{
+    width:30%;
+    height: 240px;
+    margin-right: 20px;
+
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    .rightnav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+/* Additional styling for specific sections */
+.firstHalf img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.sectionTag {
+    color: #4CAF50;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 10px;
+}
